@@ -1,0 +1,21 @@
+#cursor{
+    color:rgb(226, 73, 12);
+    font-weight: lighter;
+    animation: blink 1s linear infinite;
+}
+
+#typewriter{
+    color: hsl(12,88%,59%);
+}
+
+
+@keyframes blink{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+}
+
+
